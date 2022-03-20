@@ -307,7 +307,7 @@ export default function Home() {
               </div>
               <div class="">
                 <h3 class="text-xl font-semibold">Essentials</h3>
-                <p class="text-blueGray-400 leading-loose">A $20 Essentials School Kit pack includes a school backpack, a set of notebooks and other essential educational materials for a school kid.</p>
+                <p class="text-blueGray-400 leading-loose">An Essentials School Kit pack includes a school backpack, a set of notebooks and other essential educational materials for a school kid.</p>
                 
                 <div class="flex justify-start mt-3">
                     <button onClick={() => setShowEthDonation(showEthDonation => !showEthDonation)}
