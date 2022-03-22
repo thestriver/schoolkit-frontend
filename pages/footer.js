@@ -1,10 +1,9 @@
-export const Footer = () => {
+import Image from 'next/image'
+
+const Footer = () => {
     return(
         <footer className="text-gray-900 bg-gray-200 body-font cursor-pointer">
             <div className="lg:container px-5 py-2 lg:mx-auto flex lg:items-center sm:flex-row flex-col">
-            <a className="flex title-font font-medium lg:items-center md:justify-start justify-center text-gray-900">
-                <img src="assets/images/GASK_logo.png" alt="" width="260" />
-            </a>
             <p className="text-sm text-gray-500 lg:ml-40 lg:mr-40 sm:pl-4 sm:py-2 sm:mt-0 mt-4">© 2021 Created with <span className="px-2">❤️</span> by
                 <a href="https://steemit.com/@infovore" className="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@infovore</a>
             </p>
@@ -28,3 +27,5 @@ export const Footer = () => {
 
     )
 }
+
+export default Footer;

@@ -1,4 +1,6 @@
-export const Hero = () => {
+import Image from 'next/image'
+
+const Hero = () => {
     return(
         <div>
             {/* ====== Hero Section Start */}
@@ -61,31 +63,38 @@ export const Hero = () => {
                                 flex
                                 items-center
                                 text-body-color
-                                mb-3
+                                mb-1
                                 
                             "
                             >
                             Partner Charities
-                            <span
-                                className="w-8 h-[1px] bg-body-color inline-block ml-2"
-                            ></span>
                             </h6>
+
                             <div className="flex items-center">
-                            <div className="w-full py-3 mr-0">
-                                <img className="xl:h-20 lg:h-20 -backdrop-hue-rotate-180 " src="http://thehelpmatesfoundation.com/wp-content/uploads/2016/08/v2vX4NXz-e1583002125503.jpg" alt="ayroui" />
+                                <div className="w-full py-1 mr-0">
+                                    <Image className="xl:h-20 lg:h-20 -backdrop-hue-rotate-180 " 
+                                    width="100%" height="50%" layout="responsive" objectFit="contain"
+                                    src="http://thehelpmatesfoundation.com/wp-content/uploads/2016/08/v2vX4NXz-e1583002125503.jpg" alt="ayroui" />
+                                </div>
+                                <div className="w-full py-1 mr-4">
+                                    {/* <!-- Umrah Welfare --> */}
+                                    <Image
+                                    src="https://cdn.tailgrids.com/1.0/assets/images/brands/graygrids.svg"
+                                    alt="graygrids"
+                                    className="xl:h-20 lg:h-20 -backdrop-hue-rotate-180 " 
+                                    width="50%" height="50%" layout="responsive" objectFit="contain"
+
+                                    />
+                                </div>
+                                <div className="w-full py-1 mr-4">
+                                    <Image src="https://cdn.tailgrids.com/1.0/assets/images/brands/uideck.svg" alt="uideck"
+                                    className="xl:h-20 lg:h-20 -backdrop-hue-rotate-180 " 
+                                    width="50%" height="50%" layout="responsive" objectFit="contain"
+                                    
+                                    />
+                                </div>
                             </div>
-                            <div className="w-full py-3 mr-4">
-                                {/* <!-- Umrah Welfare --> */}
-                                <img
-                                src="https://cdn.tailgrids.com/1.0/assets/images/brands/graygrids.svg"
-                                alt="graygrids"
-                                />
                             </div>
-                            <div className="w-full py-3 mr-4">
-                                <img src="https://cdn.tailgrids.com/1.0/assets/images/brands/uideck.svg" alt="uideck" />
-                            </div>
-                            </div>
-                        </div>
                         </div>
                     </div>
                     
@@ -94,10 +103,16 @@ export const Hero = () => {
                         <div className="">
                         <div className="relative inline-block z-10 2xl:pt-12 pt-11 lg:pt-0">
                             <img
-                            src="http://thehelpmatesfoundation.com/wp-content/uploads/2020/02/WhatsApp-Image-2019-12-19-at-6.46.27-PM-1024x768.jpeg"
+                            src="http://thehelpmatesfoundation.com/wp-content/uploads/2020/02/IMG_5229-1024x683.jpg"
                             alt="hero"
-                            className="max-w-full lg:ml-auto rounded-tl-3xl rounded-md"
+                            className="max-w-full lg:ml-auto rounded-tl-3xl rounded-sm object-cover "
                             />
+                            {/* <Image
+                                src="http://thehelpmatesfoundation.com/wp-content/uploads/2020/02/IMG_5229-1024x683.jpg"
+                                alt="Kids smiling"
+                                className="absolute inset-0 object-cover w-full h-full"
+                                width="100%" height="100%" layout="responsive" objectFit="contain"
+                            /> */}
                             <span className="absolute -left-8 -bottom-8 z-[-1]">
                             <svg
                                 width="93"
@@ -143,3 +158,5 @@ export const Hero = () => {
         </div>
     )
 }
+
+export default Hero;

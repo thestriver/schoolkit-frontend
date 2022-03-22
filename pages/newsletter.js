@@ -1,4 +1,6 @@
-export const Newsletter = () => {
+import Image from 'next/image'
+
+const Newsletter = () => {
     return (
         <aside className="relative overflow-hidden text-gray-300 bg-gray-900 lg:flex">
         <div className="w-full p-12 text-center lg:w-1/2 sm:p-16 lg:p-24 lg:text-left">
@@ -49,12 +51,15 @@ export const Newsletter = () => {
         </div>
       
         <div className="relative w-full h-64 sm:h-96 lg:w-1/2 lg:h-auto">
-          <img
-            src="http://thehelpmatesfoundation.com/wp-content/uploads/2020/02/IMG_5229-1024x683.jpg"
+          <Image
+            src="http://thehelpmatesfoundation.com/wp-content/uploads/2020/02/WhatsApp-Image-2019-12-19-at-6.46.27-PM-1024x768.jpeg"
             alt="Women smiling at college"
             className="absolute inset-0 object-cover w-full h-full"
+            width="100%" height="50%" layout="responsive" objectFit="cover"
           />
         </div>
       </aside>
     )
 }
+
+export default Newsletter;

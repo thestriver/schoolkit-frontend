@@ -6,11 +6,11 @@ import "react-toastify/dist/ReactToastify.css";
 import Head from "next/head";
 import abi from "../utils/DonateKit.json";
 
-import { Hero } from "./hero";
-import { Givers } from "./givers";
-import { Newsletter } from "./newsletter";
-import { Goal } from "./goal";
-import { Footer } from "./footer";
+import Hero from "./hero";
+import Givers  from "./givers";
+import Newsletter from "./newsletter";
+import  Goal  from "./goal";
+import Footer from "./footer";
 
 export default function Home() {
   //contract address
@@ -255,7 +255,8 @@ export default function Home() {
         schoolkitContract.off("NewKitDonation", onNewDonation);
       }
     };
-  }, []);
+  // eslint-disable-next-line
+  }, [contractABI]);
 
   const handleOnMessageChange = (event) => {
     const { value } = event.target;
@@ -280,14 +281,14 @@ export default function Home() {
           <div className="mb-12 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
             <h2 className="mb-4 text-4xl lg:text-5xl font-bold font-heading">Help School Kids Achieve Their Dreams</h2>
             <p className="mb-4 leading-loose text-blueGray-400">
-                There is a huge chance Crypto has had a huge influence on your life. And we're hoping you can help make it changed others too. </p>
+                There is a huge chance Crypto has had a huge influence on your life. And we&apos;re hoping you can help make it changed others too. </p>
                 
             <p className="mb-4 leading-loose text-blueGray-400"> There are over <span className="font-bold" >200 million out of school children globally</span>
                 and those still in school lack appropriate learning materials to truly achieve their goals.
             </p>
                 
-            <p className="mb-4 leading-loose text-blueGray-400"> Over the past couple of years, I've participated in efforts to donate proper school kits to needy school kids in sub-Saharan Africa especially 
-                in places where millions are living in extreme poverty but there's still so much to be done. 
+            <p className="mb-4 leading-loose text-blueGray-400"> Over the past couple of years, I&apos;ve participated in efforts to donate proper school kits to needy school kids in sub-Saharan Africa especially 
+                in places where millions are living in extreme poverty but there&apos;s still so much to be done. 
             </p>
           <p className="mb-4 leading-loose text-blueGray-400">
                 With Gift A School Kit, <b>we can help make a difference</b> . Help these kids fulfil their right to education. Help them achieve their dreams. 
@@ -299,7 +300,7 @@ export default function Home() {
         </div>
         </div>
         {/* Donate section */}
-        <div className="w-full lg:w-1/2 px-8 pt-20 pl-16 ">
+        <div className="w-full lg:w-1/2 px-8 pt-20 lg:pl-16 ">
           <ul className="space-y-12">
             <li className="flex -mx-4">
               <div className="px-4">
