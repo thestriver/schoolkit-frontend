@@ -2,13 +2,13 @@ export const Hero = () => {
     return(
         <div>
             {/* ====== Hero Section Start */}
-            <div class="relative pt-[60px] lg:pt-[50px] pb-[50px] bg-white">
-                <div class="container">
-                    <div class="flex flex-wrap 2xl:ml-80 xl:ml-24 lg:ml-16 mx-auto">
-                    <div class="w-full lg:w-5/12 px-4">
-                        <div class="hero-content">
+            <div className="relative pt-[60px] lg:pt-[50px] pb-[50px] bg-white">
+                <div className="container">
+                    <div className="flex flex-wrap 2xl:ml-48 xl:ml-24 lg:ml-16 mx-auto">
+                    <div className="w-full lg:w-5/12 px-4">
+                        <div className="hero-content">
                         <h1
-                            class="
+                            className="
                             lg:pt-8
                             xl:pt-10
                             text-dark
@@ -24,16 +24,16 @@ export const Hero = () => {
                             Gift A 
                             School Kit 
                         </h1>
-                        <p class="text-base mb-5 text-body-color max-w-[480px] xl:pt-5">
+                        <p className="text-base mb-5 text-body-color max-w-[480px] xl:pt-5">
                             Gift A School Kit is a web3 project 
                             working towards ensuring underpriviledged school kids 
                             get access to basic educational materials.  
                         </p>
-                        <ul class="flex flex-wrap items-center">
+                        <ul className="flex flex-wrap items-center">
                             <li>
                             <a
-                                href="javascript:void(0)"
-                                class="
+                                href=""
+                                className="
                                 py-3
                                 px-6
                                 sm:px-10
@@ -53,9 +53,9 @@ export const Hero = () => {
                             </a>
                             </li>
                         </ul>
-                        <div class="clients pt-12">
+                        <div className="clients pt-12">
                             <h6
-                            class="
+                            className="
                                 font-normal
                                 text-xs
                                 flex
@@ -67,37 +67,38 @@ export const Hero = () => {
                             >
                             Partner Charities
                             <span
-                                class="w-8 h-[1px] bg-body-color inline-block ml-2"
+                                className="w-8 h-[1px] bg-body-color inline-block ml-2"
                             ></span>
                             </h6>
-                            <div class="flex items-center">
-                            <div class="w-full py-3 mr-0">
-                                <img class="xl:h-20 lg:h-20 -backdrop-hue-rotate-180 " src="http://thehelpmatesfoundation.com/wp-content/uploads/2016/08/v2vX4NXz-e1583002125503.jpg" alt="ayroui" />
+                            <div className="flex items-center">
+                            <div className="w-full py-3 mr-0">
+                                <img className="xl:h-20 lg:h-20 -backdrop-hue-rotate-180 " src="http://thehelpmatesfoundation.com/wp-content/uploads/2016/08/v2vX4NXz-e1583002125503.jpg" alt="ayroui" />
                             </div>
-                            <div class="w-full py-3 mr-4">
+                            <div className="w-full py-3 mr-4">
                                 {/* <!-- Umrah Welfare --> */}
                                 <img
                                 src="https://cdn.tailgrids.com/1.0/assets/images/brands/graygrids.svg"
                                 alt="graygrids"
                                 />
                             </div>
-                            <div class="w-full py-3 mr-4">
+                            <div className="w-full py-3 mr-4">
                                 <img src="https://cdn.tailgrids.com/1.0/assets/images/brands/uideck.svg" alt="uideck" />
                             </div>
                             </div>
                         </div>
                         </div>
                     </div>
-                    <div class="hidden lg:block lg:w-1/12 px-4"></div>
-                    <div class="w-full lg:w-6/12 px-4">
-                        <div class="lg:text-right lg:ml-auto">
-                        <div class="relative inline-block z-10 2xl:pt-12 pt-11 lg:pt-0">
+                    
+                    <div className="hidden lg:block lg:w-1/12 px-4"></div>
+                    <div className="w-full lg:w-6/12 px-16">
+                        <div className="">
+                        <div className="relative inline-block z-10 2xl:pt-12 pt-11 lg:pt-0">
                             <img
                             src="http://thehelpmatesfoundation.com/wp-content/uploads/2020/02/WhatsApp-Image-2019-12-19-at-6.46.27-PM-1024x768.jpeg"
                             alt="hero"
-                            class="max-w-full lg:ml-auto rounded-tl-3xl rounded-md"
+                            className="max-w-full lg:ml-auto rounded-tl-3xl rounded-md"
                             />
-                            <span class="absolute -left-8 -bottom-8 z-[-1]">
+                            <span className="absolute -left-8 -bottom-8 z-[-1]">
                             <svg
                                 width="93"
                                 height="93"

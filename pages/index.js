@@ -273,23 +273,23 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
-      <section class="py-10">
-    <div class="container px-4 mx-auto">
-      <div class="flex flex-wrap md:-mx-8">
-        <div class="w-full lg:w-1/2 px-8">
-          <div class="mb-12 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
-            <h2 class="mb-4 text-4xl lg:text-5xl font-bold font-heading">Help School Kids Achieve Their Dreams</h2>
-            <p class="mb-4 leading-loose text-blueGray-400">
+      <section className="py-10">
+    <div className="container px-4 mx-auto">
+      <div className="flex flex-wrap md:-mx-8">
+        <div className="w-full lg:w-1/2 px-8">
+          <div className="mb-12 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
+            <h2 className="mb-4 text-4xl lg:text-5xl font-bold font-heading">Help School Kids Achieve Their Dreams</h2>
+            <p className="mb-4 leading-loose text-blueGray-400">
                 There is a huge chance Crypto has had a huge influence on your life. And we're hoping you can help make it changed others too. </p>
                 
-            <p class="mb-4 leading-loose text-blueGray-400"> There are over <span class="font-bold" >200 million out of school children globally</span>
+            <p className="mb-4 leading-loose text-blueGray-400"> There are over <span className="font-bold" >200 million out of school children globally</span>
                 and those still in school lack appropriate learning materials to truly achieve their goals.
             </p>
                 
-            <p class="mb-4 leading-loose text-blueGray-400"> Over the past couple of years, I've participated in efforts to donate proper school kits to needy school kids in sub-Saharan Africa especially 
+            <p className="mb-4 leading-loose text-blueGray-400"> Over the past couple of years, I've participated in efforts to donate proper school kits to needy school kids in sub-Saharan Africa especially 
                 in places where millions are living in extreme poverty but there's still so much to be done. 
             </p>
-          <p class="mb-4 leading-loose text-blueGray-400">
+          <p className="mb-4 leading-loose text-blueGray-400">
                 With Gift A School Kit, <b>we can help make a difference</b> . Help these kids fulfil their right to education. Help them achieve their dreams. 
                 Gift A School Kit Today.
                 
@@ -299,23 +299,23 @@ export default function Home() {
         </div>
         </div>
         {/* Donate section */}
-        <div class="w-full lg:w-1/2 px-8 pt-20 pl-16 ">
-          <ul class="space-y-12">
-            <li class="flex -mx-4">
-              <div class="px-4">
-                <span class="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-600 text-white">$20</span>
+        <div className="w-full lg:w-1/2 px-8 pt-20 pl-16 ">
+          <ul className="space-y-12">
+            <li className="flex -mx-4">
+              <div className="px-4">
+                <span className="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-600 text-white">$20</span>
               </div>
-              <div class="">
-                <h3 class="text-xl font-semibold">Essentials</h3>
-                <p class="text-blueGray-400 leading-loose">An Essentials School Kit pack includes a school backpack, a set of notebooks and other essential educational materials for a school kid.</p>
+              <div className="">
+                <h3 className="text-xl font-semibold">Essentials</h3>
+                <p className="text-blueGray-400 leading-loose">An Essentials School Kit pack includes a school backpack, a set of notebooks and other essential educational materials for a school kid.</p>
                 
-                <div class="flex justify-start mt-3">
+                <div className="flex justify-start mt-3">
                     <button onClick={() => setShowEthDonation(showEthDonation => !showEthDonation)}
-                    class="inline-flex items-center bg-blue-600 border-0 py-2 px-3 focus:outline-none hover:bg-blue-700 rounded text-base text-white mt-4 md:mt-0">
+                    className="inline-flex items-center bg-blue-600 border-0 py-2 px-3 focus:outline-none hover:bg-blue-700 rounded text-base text-white mt-4 md:mt-0">
                       Gift A Kit Now
                     </button>
                 </div>
-                <small class="text-[10px]"> $20 in ETH (Ethereum Blockchain)</small>
+                <small className="text-[10px]"> $20 in ETH (Ethereum Blockchain)</small>
                 <br/><br/>
 
                 {/* Donate section starts */}
@@ -425,18 +425,18 @@ export default function Home() {
                 
 
                 {/* Donate section ends */}
-                <small class=""><b>
+                <small className=""><b>
                   If you would like to make donations in another chain, 
                   here are our addresses:
                 </b></small>
                 <br/>
-                <small class="text-[12px]">
+                <small className="text-[12px]">
                  Bitcoin: <b>
                 </b></small><br/>
-                <small class="text-[12px]">
+                <small className="text-[12px]">
                  Binance Chain (BEP20): <b>
                 </b></small><br/>
-                <small class="text-[12px]">
+                <small className="text-[12px]">
                  Tron (TRC20): <b>
                 </b></small>
 
