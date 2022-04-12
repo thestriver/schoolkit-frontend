@@ -70,30 +70,6 @@ const Hero = () => {
                             Partner Charities
                             </h6>
 
-                            <div className="flex items-center">
-                                <div className="w-full py-1 mr-0">
-                                    <Image className="xl:h-20 lg:h-20 -backdrop-hue-rotate-180 " 
-                                    width="100%" height="50%" layout="responsive" objectFit="contain"
-                                    src="http://thehelpmatesfoundation.com/wp-content/uploads/2016/08/v2vX4NXz-e1583002125503.jpg" alt="ayroui" />
-                                </div>
-                                <div className="w-full py-1 mr-4">
-                                    {/* <!-- Umrah Welfare --> */}
-                                    <Image
-                                    src="https://cdn.tailgrids.com/1.0/assets/images/brands/graygrids.svg"
-                                    alt="graygrids"
-                                    className="xl:h-20 lg:h-20 -backdrop-hue-rotate-180 " 
-                                    width="50%" height="50%" layout="responsive" objectFit="contain"
-
-                                    />
-                                </div>
-                                <div className="w-full py-1 mr-4">
-                                    <Image src="https://cdn.tailgrids.com/1.0/assets/images/brands/uideck.svg" alt="uideck"
-                                    className="xl:h-20 lg:h-20 -backdrop-hue-rotate-180 " 
-                                    width="50%" height="50%" layout="responsive" objectFit="contain"
-                                    
-                                    />
-                                </div>
-                            </div>
                             </div>
                         </div>
                     </div>
