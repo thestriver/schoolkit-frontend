@@ -75,12 +75,6 @@ const Hero = () => {
                     </div>
                     
                     <div className="hidden lg:block lg:w-1/12 px-4"></div>
-                    <div className="w-full lg:w-6/12 px-16">
-                        <div className="">
-                        <div className="relative inline-block z-10 2xl:pt-12 pt-11 lg:pt-0">
-                        </div>
-                        </div>
-                    </div>
                     </div>
                 </div>
             </div>
