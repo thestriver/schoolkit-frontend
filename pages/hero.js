@@ -78,52 +78,6 @@ const Hero = () => {
                     <div className="w-full lg:w-6/12 px-16">
                         <div className="">
                         <div className="relative inline-block z-10 2xl:pt-12 pt-11 lg:pt-0">
-                            <img
-                            src="http://thehelpmatesfoundation.com/wp-content/uploads/2020/02/IMG_5229-1024x683.jpg"
-                            alt="hero"
-                            className="max-w-full lg:ml-auto rounded-tl-3xl rounded-sm object-cover "
-                            />
-                            {/* <Image
-                                src="http://thehelpmatesfoundation.com/wp-content/uploads/2020/02/IMG_5229-1024x683.jpg"
-                                alt="Kids smiling"
-                                className="absolute inset-0 object-cover w-full h-full"
-                                width="100%" height="100%" layout="responsive" objectFit="contain"
-                            /> */}
-                            <span className="absolute -left-8 -bottom-8 z-[-1]">
-                            <svg
-                                width="93"
-                                height="93"
-                                viewBox="0 0 93 93"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <circle cx="2.5" cy="2.5" r="2.5" fill="#3056D3" />
-                                <circle cx="2.5" cy="24.5" r="2.5" fill="#3056D3" />
-                                <circle cx="2.5" cy="46.5" r="2.5" fill="#3056D3" />
-                                <circle cx="2.5" cy="68.5" r="2.5" fill="#3056D3" />
-                                <circle cx="2.5" cy="90.5" r="2.5" fill="#3056D3" />
-                                <circle cx="24.5" cy="2.5" r="2.5" fill="#3056D3" />
-                                <circle cx="24.5" cy="24.5" r="2.5" fill="#3056D3" />
-                                <circle cx="24.5" cy="46.5" r="2.5" fill="#3056D3" />
-                                <circle cx="24.5" cy="68.5" r="2.5" fill="#3056D3" />
-                                <circle cx="24.5" cy="90.5" r="2.5" fill="#3056D3" />
-                                <circle cx="46.5" cy="2.5" r="2.5" fill="#3056D3" />
-                                <circle cx="46.5" cy="24.5" r="2.5" fill="#3056D3" />
-                                <circle cx="46.5" cy="46.5" r="2.5" fill="#3056D3" />
-                                <circle cx="46.5" cy="68.5" r="2.5" fill="#3056D3" />
-                                <circle cx="46.5" cy="90.5" r="2.5" fill="#3056D3" />
-                                <circle cx="68.5" cy="2.5" r="2.5" fill="#3056D3" />
-                                <circle cx="68.5" cy="24.5" r="2.5" fill="#3056D3" />
-                                <circle cx="68.5" cy="46.5" r="2.5" fill="#3056D3" />
-                                <circle cx="68.5" cy="68.5" r="2.5" fill="#3056D3" />
-                                <circle cx="68.5" cy="90.5" r="2.5" fill="#3056D3" />
-                                <circle cx="90.5" cy="2.5" r="2.5" fill="#3056D3" />
-                                <circle cx="90.5" cy="24.5" r="2.5" fill="#3056D3" />
-                                <circle cx="90.5" cy="46.5" r="2.5" fill="#3056D3" />
-                                <circle cx="90.5" cy="68.5" r="2.5" fill="#3056D3" />
-                                <circle cx="90.5" cy="90.5" r="2.5" fill="#3056D3" />
-                            </svg>
-                            </span>
                         </div>
                         </div>
                     </div>
