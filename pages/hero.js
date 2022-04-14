@@ -9,23 +9,7 @@ const Hero = () => {
                     <div className="flex flex-wrap 2xl:ml-48 xl:ml-24 lg:ml-16 mx-auto">
                     <div className="w-full lg:w-5/12 px-4">
                         <div className="hero-content">
-                        <h1
-                            className="
-                            lg:pt-8
-                            xl:pt-10
-                            text-dark
-                            font-bold
-                            text-4xl
-                            sm:text-[42px]
-                            lg:text-[40px]
-                            xl:text-[65px]
-                            leading-none
-                            mb-3
-                            "
-                        >
-                            Gift A 
-                            School Kit 
-                        </h1>
+            
                         <p className="text-base mb-5 text-body-color max-w-[480px] xl:pt-5">
                             Gift A School Kit is a web3 project 
                             working towards ensuring underpriviledged school kids 
@@ -74,7 +58,6 @@ const Hero = () => {
                         </div>
                     </div>
                     
-                    <div className="hidden lg:block lg:w-1/12 px-4"></div>
                     </div>
                 </div>
             </div>
