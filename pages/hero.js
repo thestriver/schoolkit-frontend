@@ -13,10 +13,6 @@ export default function Hero({ reference, click }){
                 <a onClick={click}
                 className="cursor-pointer inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">
                 Gift A School Kit Today</a>
-
-                {/* <a href="#" className="inline-block rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base">
-                Check Our Donors
-                </a> */}
                 </div>
             </div>
             {/* <!-- content - end --> */}
@@ -60,16 +56,6 @@ export default function Hero({ reference, click }){
 
                             />
                         </a>
-                        {/* <a href="#" target="_blank" className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
-                            <Image
-                                src='/brainy.png'
-                                alt="school kids"
-                                width={72}
-                                height={60}
-                                className="h-12 w-72"
-
-                            />
-                        </a> */}
                     </div>
                 </div>
 
@@ -92,25 +78,6 @@ export default function Hero({ reference, click }){
                     </div>
                     <div className='hidden'></div>
                 </div>
-                {/* <!-- social - start --> */}
-                {/* <div className="flex items-center justify-center gap-4 lg:justify-start">
-                    <span className="text-sm font-semibold uppercase tracking-widest text-gray-400 sm:text-base"> POWERED BY</span>
-                    <span className="h-px w-8 bg-gray-200"></span>
-
-                    <div className="flex gap-4">
-                        <a href="#" target="_blank" className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
-                            <Image
-                                src='/solana.png'
-                                alt="school kids"
-                                width={24}
-                                height={24}
-                                className="h-12 w-72"
-
-                            />
-                        </a>
-                    </div>
-                </div> */}
-                {/* <!-- social - end --> */}
             </section>
         </div>
     </div>
