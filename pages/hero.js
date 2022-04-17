@@ -32,6 +32,86 @@ export default function Hero({ reference, click }){
             />
             </div>
             </section>
+
+            <section className="flex flex-col items-center justify-between gap-10 border-t pt-4 lg:flex-row lg:gap-8">
+                {/* Partners */}
+                <div className="flex items-center justify-center gap-4 lg:justify-start">
+                    <span className="text-sm font-semibold uppercase tracking-widest text-gray-400 sm:text-base"> Non-Profit Partners</span>
+                    <span className="h-px w-8 bg-gray-200"></span>
+
+                    <div className="flex gap-4">
+                        <a href="https://thehelpmatesfoundation.com/" target="_blank" className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600" rel="noreferrer">
+                            <Image
+                                src='/thf.jpeg'
+                                alt="school kids"
+                                width={72}
+                                height={60}
+                                className="h-12 w-72"
+
+                            />
+                        </a>
+                        <a href='https://teenstrustfoundation.org/' rel="noreferrer" target="_blank" className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+                            <Image
+                                src='/tt.jpeg'
+                                alt="school kids"
+                                width={60}
+                                height={60}
+                                className="h-12 w-72"
+
+                            />
+                        </a>
+                        {/* <a href="#" target="_blank" className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+                            <Image
+                                src='/brainy.png'
+                                alt="school kids"
+                                width={72}
+                                height={60}
+                                className="h-12 w-72"
+
+                            />
+                        </a> */}
+                    </div>
+                </div>
+
+                {/* <!-- stats - start --> */}
+                <div className="-mx-6 grid grid-cols-2 gap-4 md:-mx-8 md:flex md:divide-x">
+                    <div className='hidden'></div>
+                    <div className="px-6 md:px-6">
+                        <span className="block text-center text-lg font-bold text-indigo-500 md:text-left md:text-xl">200</span>
+                        <span className="block text-center text-sm font-semibold text-gray-800 md:text-left md:text-sm">Total School Kits Donated</span>
+                    </div>
+
+                    <div className="px-6 md:px-6">
+                        <span className="block text-center text-lg font-bold text-indigo-500 md:text-left md:text-xl">$2340</span>
+                        <span className="block text-center text-sm font-semibold text-gray-800 md:text-left md:text-sm">Total Money Raised</span>
+                    </div>
+
+                    <div className="px-6 md:px-6">
+                        <span className="block text-center text-lg font-bold text-indigo-500 md:text-left md:text-xl">200</span>
+                        <span className="block text-center text-sm font-semibold text-gray-800 md:text-left md:text-sm">Total No Of School Kids</span>
+                    </div>
+                    <div className='hidden'></div>
+                </div>
+                {/* <!-- social - start --> */}
+                {/* <div className="flex items-center justify-center gap-4 lg:justify-start">
+                    <span className="text-sm font-semibold uppercase tracking-widest text-gray-400 sm:text-base"> POWERED BY</span>
+                    <span className="h-px w-8 bg-gray-200"></span>
+
+                    <div className="flex gap-4">
+                        <a href="#" target="_blank" className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+                            <Image
+                                src='/solana.png'
+                                alt="school kids"
+                                width={24}
+                                height={24}
+                                className="h-12 w-72"
+
+                            />
+                        </a>
+                    </div>
+                </div> */}
+                {/* <!-- social - end --> */}
+            </section>
         </div>
     </div>
     )
