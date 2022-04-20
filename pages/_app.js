@@ -21,6 +21,7 @@ function MyApp({ Component, pageProps }) {
   // of wallets that your users connect to will be loaded.
   const wallets = [
     new PhantomWalletAdapter(),
+    new SolflareWalletAdapter({ network }),
   ];
 
   return (
