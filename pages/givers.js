@@ -7,18 +7,7 @@ const Givers = () => {
                 Hearty thanks to these companies and individuals for supporting our cause
             </h1>
             <div className="grid grid-cols-2 gap-10 text-center lg:grid-cols-8">
-                <div className="flex items-center justify-center">
-                <Image
-                    src="https://kutty.netlify.app/logos/todoist.svg"
-                    alt="Todoist Logo"
-                    // width={500}
-                    // height={500}
-                    className="block object-contain h-12"
-                    width="100%" height="100%" layout="responsive" objectFit="contain"
-                />
-                {/* <img src="https://kutty.netlify.app/logos/todoist.svg" alt="Todoist Logo" className="block object-contain h-12" /> */}
-                </div>
-                
+
             </div>
         </section>
     )
