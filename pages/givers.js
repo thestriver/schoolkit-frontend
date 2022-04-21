@@ -19,26 +19,6 @@ const Givers = () => {
                 {/* <img src="https://kutty.netlify.app/logos/todoist.svg" alt="Todoist Logo" className="block object-contain h-12" /> */}
                 </div>
                 
-                <div className="flex items-center justify-center">
-                <Image
-                    src="https://kutty.netlify.app/logos/slack-icon.svg"
-                    alt="Slack Logo" className="block object-contain h-12"
-                    width="100%" height="100%" layout="responsive" objectFit="contain"
-                />
-                    {/* <img src="https://kutty.netlify.app/logos/slack-icon.svg" alt="Slack Logo" className="block object-contain h-12" /> */}
-                </div>
-                <div className="flex items-center justify-center">
-                    <Image
-                       src="https://kutty.netlify.app/logos/algolia.svg" alt="Typeform Logo" className="block object-contain h-12"
-                       width="100%" height="100%" layout="responsive" objectFit="contain"
-                    />
-                    {/* <img src="https://kutty.netlify.app/logos/algolia.svg" alt="Typeform Logo" className="block object-contain h-12" /> */}
-                </div>
-                <div className="flex items-center justify-center">
-                    <Image src="https://kutty.netlify.app/logos/android.svg" alt="Algolia Logo" className="block object-contain h-12"
-                    width="100%" height="100%" layout="responsive" objectFit="contain"
-                     />
-                </div>
             </div>
         </section>
     )
