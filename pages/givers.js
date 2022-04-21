@@ -39,24 +39,6 @@ const Givers = () => {
                     width="100%" height="100%" layout="responsive" objectFit="contain"
                      />
                 </div>
-                <div className="flex items-center justify-center">
-                    <Image src="https://kutty.netlify.app/logos/vimeo.svg" alt="Postcss Logo" className="block object-contain h-12"
-                    width="100%" height="100%" layout="responsive" objectFit="contain" />
-                </div>
-                <div className="flex items-center justify-center">
-                    <Image src="https://kutty.netlify.app/logos/postcss.svg" alt="TailwindCSS Logo" className="block object-contain h-12"
-                    width="100%" height="100%" layout="responsive" objectFit="contain"
-                     />
-                </div>
-                <div className="flex items-center justify-center">
-                    <Image src="https://kutty.netlify.app/logos/discord.svg" alt="Discord Logo" className="block object-contain h-12"
-                    width="100%" height="100%" layout="responsive" objectFit="contain"
-                     />
-                </div>
-                <div className="flex items-center justify-center">
-                    <Image src="https://kutty.netlify.app/logos/zeplin.svg" alt="Vimeo Logo" className="block object-contain h-12"
-                    width="100%" height="100%" layout="responsive" objectFit="contain" />
-                </div>
             </div>
         </section>
     )
