@@ -1,5 +1,5 @@
 import Image from 'next/image'
-
+import { donors } from '../lib/donors';
 const Givers = () => {
     return(
         <section className="px-4 py-24 mx-auto max-w-7xl">
