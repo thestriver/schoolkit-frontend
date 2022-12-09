@@ -63,17 +63,17 @@ export default function Hero({ reference, click }){
                 <div className="-mx-6 grid grid-cols-2 gap-4 md:-mx-8 md:flex md:divide-x">
                     <div className='hidden'></div>
                     <div className="px-6 md:px-6">
-                        <span className="block text-center text-lg font-bold text-indigo-500 md:text-left md:text-xl">200</span>
+                        <span className="block text-center text-lg font-bold text-indigo-500 md:text-left md:text-xl">314</span>
                         <span className="block text-center text-sm font-semibold text-gray-800 md:text-left md:text-sm">Total School Kits Donated</span>
                     </div>
 
                     <div className="px-6 md:px-6">
-                        <span className="block text-center text-lg font-bold text-indigo-500 md:text-left md:text-xl">$2340</span>
+                        <span className="block text-center text-lg font-bold text-indigo-500 md:text-left md:text-xl">$2537.3</span>
                         <span className="block text-center text-sm font-semibold text-gray-800 md:text-left md:text-sm">Total Money Raised</span>
                     </div>
 
                     <div className="px-6 md:px-6">
-                        <span className="block text-center text-lg font-bold text-indigo-500 md:text-left md:text-xl">200</span>
+                        <span className="block text-center text-lg font-bold text-indigo-500 md:text-left md:text-xl">314</span>
                         <span className="block text-center text-sm font-semibold text-gray-800 md:text-left md:text-sm">Total No Of School Kids</span>
                     </div>
                     <div className='hidden'></div>
